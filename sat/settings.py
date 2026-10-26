@@ -34,7 +34,7 @@ SECRET_KEY = 'django-insecure-+69g0nh*!75erkfg#b!(s^j307cp=6jbjcy7*^d51pw=b@w380
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["https://student-activity-tracker-be.onrender.com/"]
 
 
 # Application definition
@@ -144,4 +144,5 @@ MAILERS = {
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://127.0.0.1:5173",
+    "https://student-activity-tracker-fe-react.vercel.app/",
 ]
