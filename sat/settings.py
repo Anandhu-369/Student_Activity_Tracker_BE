@@ -34,7 +34,7 @@ SECRET_KEY = 'django-insecure-+69g0nh*!75erkfg#b!(s^j307cp=6jbjcy7*^d51pw=b@w380
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["https://student-activity-tracker-be.onrender.com/"]
+ALLOWED_HOSTS = ["student-activity-tracker-be.onrender.com"]
 
 
 # Application definition
